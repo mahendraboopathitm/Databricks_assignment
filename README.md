@@ -93,40 +93,47 @@ Databricks Assignment
 
  
 
-Question 2:  
+# Question 2:  
 
-Api: https://reqres.in/api/users?page=2  
-drop "page”, "per_page", "total", "total_pages" and complete block of support.  
+## Api: https://reqres.in/api/users?page=2  
+## drop "page”, "per_page", "total", "total_pages" and complete block of support.  
 
-Fetch the data from the given API by passing the parameter as a page and retrieving the data till the data is empty 
+## Fetch the data from the given API by passing the parameter as a page and retrieving the data till the data is empty 
+
+ 
+<img width="782" height="399" alt="image" src="https://github.com/user-attachments/assets/bfdd0adb-c9d7-4a3c-93b1-6a7f5451370a" />
+
+ 
+<img width="766" height="148" alt="image" src="https://github.com/user-attachments/assets/e1a8ecff-db77-46b2-9b5d-917fd16e4f29" />
 
  
 
+## Read the data frame with a custom schema : 
+
+ <img width="752" height="365" alt="image" src="https://github.com/user-attachments/assets/ec924536-842e-4ef0-84a2-50f4424801fc" />
+
+
+## Flatten the dataframe : 
+
+ <img width="748" height="353" alt="image" src="https://github.com/user-attachments/assets/93f49b80-5b42-4559-b187-bb5fca73502d" />
+
+
+## Derive a new column from email as site_address with values(reqres.in) : 
+
+ <img width="748" height="201" alt="image" src="https://github.com/user-attachments/assets/aa2035d8-c5fb-492f-92b3-63041d65a3bf" />
+
+
+## Add load_date with the current date : 
+
+ <img width="748" height="341" alt="image" src="https://github.com/user-attachments/assets/a2d961bd-702d-42a8-a065-d93d5fca34e2" />
+
+
+## Write the data frame to location in DBFS as /db_name /table_name with   
+
+<img width="754" height="169" alt="image" src="https://github.com/user-attachments/assets/5c4bf1b8-499a-459d-b0ff-f3cc0c0dd70f" />
+
+## Db_name as site_info and table_name as person_info with delta format and overwrite mode.  
  
+<img width="751" height="273" alt="image" src="https://github.com/user-attachments/assets/4f3cd298-6694-434d-8146-c6b0b17f31d6" />
 
- 
-
-Read the data frame with a custom schema : 
-
- 
-
- 
-
-Flatten the dataframe : 
-
- 
-
-Derive a new column from email as site_address with values(reqres.in) : 
-
- 
-
-Add load_date with the current date : 
-
- 
-
-Write the data frame to location in DBFS as /db_name /table_name with   
-
-Db_name as site_info and table_name as person_info with delta format and overwrite mode.  
-
- 
 
